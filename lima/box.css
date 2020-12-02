@@ -1,0 +1,128 @@
+/* Crea un ficheiro html con contido de listas ordeadas, listas desordeadas, listas de definicións e encabezados. Logo fai un ficheiro para os estilos que enlazas con este html. Define estilos diferentes para cada elemento html traballando o Box Model e todas as súas propiedades: border, padding, margin, height, width.
+
+Esta tarefa si que é preciso entregala para facer unha revisión e posta en común do Box Model */
+
+
+
+
+*{
+    margin: 0px;
+    background-color: 
+}
+ol {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border: 5px solid black;
+    background-color: aqua;
+    padding: 10px;
+    width: 120px;
+    margin-left: 20px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    
+   
+    
+}
+
+li{
+    border: 2px solid black;
+    background-color: red
+}
+
+ol li {
+    margin-left: 20px;
+    
+}
+
+ol li:hover {
+   
+    border: 2px red;
+    border-style: hidden;
+    
+}
+
+
+dl{
+    border: solid black 1px;;
+}
+
+
+ul li{
+    margin-left: -20px;
+}
+
+
+ul {
+    
+    
+    
+    
+    
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border: 5px solid black;
+    background-color: aqua;
+    width: 150px;
+    border-left-style: double;
+}
+
+ul li:nth-of-type(2){
+    color: darkblue;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+
+ul li:nth-of-type(4){
+    color: darkblue;
+    border-style: dotted;
+     border-width: 5px;
+}
+
+article{
+    
+    margin-left: 50px;
+    padding: 20px;
+    border: 5px black;
+    border-style: solid;
+    border-left-style: dashed;
+    border-bottom-style: dashed;
+    border-left-color: blue;
+    border-bottom-color: blue;
+    box-shadow: 2px 2px 5px 5px ;
+    
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: aqua;
+    height: 220px;
+    text-align: left;
+    
+}
+
+
+
+
+dd {
+    border-bottom: 4px black;
+    border-bottom-style: dotted;
+   
+    
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
